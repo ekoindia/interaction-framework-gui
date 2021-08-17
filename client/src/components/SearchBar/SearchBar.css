@@ -1,0 +1,31 @@
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px;
+    width: 35%;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 64px;
+    background: #2D303E;
+    /* Base / Dark Line */
+    border: 1px solid #393C49;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.search-bar__input{
+    color: #ABBBC2;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+    margin-left: 6px;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+*:focus {
+    outline: none;
+}

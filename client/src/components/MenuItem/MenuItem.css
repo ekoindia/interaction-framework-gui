@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Poppins&display=swap');
+/* font-family: 'Barlow', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+.menu-item{
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    height: auto;
+    min-height: 4rem;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    /* border: 1px solid red; */
+}
+.menu-item__data-container{
+    /* border: 1px solid yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header-row{
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #393C49;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button-col,
+.id-col,
+.isvisible-col{
+    max-width: 10%;
+}

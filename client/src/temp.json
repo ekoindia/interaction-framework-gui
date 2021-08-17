@@ -1,0 +1,5186 @@
+[
+    {
+        "id": "4iu24c2uk8ks65hgh4",
+        "type": "default",
+        "position": {
+            "x": 100,
+            "y": 100
+        },
+        "data": {
+            "label": "Search Customer"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh40",
+        "type": "default",
+        "position": {
+            "x": 200,
+            "y": 150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh4-p4iu24c2uk8ks65hgh40",
+        "source": "4iu24c2uk8ks65hgh4",
+        "target": "p4iu24c2uk8ks65hgh40"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh41",
+        "type": "default",
+        "position": {
+            "x": 200,
+            "y": 200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "msg"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh4-p4iu24c2uk8ks65hgh41",
+        "source": "4iu24c2uk8ks65hgh4",
+        "target": "p4iu24c2uk8ks65hgh41"
+    },
+    {
+        "id": "4iu24c2uk8ks65hgh5",
+        "type": "default",
+        "position": {
+            "x": 400,
+            "y": 100
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] Success"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh4-4iu24c2uk8ks65hgh5",
+        "source": "4iu24c2uk8ks65hgh4",
+        "target": "4iu24c2uk8ks65hgh5",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgh6",
+        "type": "default",
+        "position": {
+            "x": 600,
+            "y": 200
+        },
+        "data": {
+            "label": "Fetching Recipients"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh60",
+        "type": "default",
+        "position": {
+            "x": 700,
+            "y": 250
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh6-p4iu24c2uk8ks65hgh60",
+        "source": "4iu24c2uk8ks65hgh6",
+        "target": "p4iu24c2uk8ks65hgh60"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh61",
+        "type": "default",
+        "position": {
+            "x": 700,
+            "y": 300
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "credit_card_info"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh6-p4iu24c2uk8ks65hgh61",
+        "source": "4iu24c2uk8ks65hgh6",
+        "target": "p4iu24c2uk8ks65hgh61"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh62",
+        "type": "default",
+        "position": {
+            "x": 700,
+            "y": 350
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "kyc_state"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh6-p4iu24c2uk8ks65hgh62",
+        "source": "4iu24c2uk8ks65hgh6",
+        "target": "p4iu24c2uk8ks65hgh62"
+    },
+    {
+        "id": "4iu24c2uk8ks65hgh7",
+        "type": "default",
+        "position": {
+            "x": 900,
+            "y": 200
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "No recipient added."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh6-4iu24c2uk8ks65hgh7",
+        "source": "4iu24c2uk8ks65hgh6",
+        "target": "4iu24c2uk8ks65hgh7",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgh8",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 300
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh80",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 350
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_name"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh80",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh80"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh81",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 400
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_mobile"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh81",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh81"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh82",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "gender"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh82",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh82"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh83",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "_indonepal_recipient_uri"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh83",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh83"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh84",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh84",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh84"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh85",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "address_line1"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh85",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh85"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh86",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "action"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh86",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh86"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh87",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "relationship_with_sender"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh87",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh87"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh88",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "send_country"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh88",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh88"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh89",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payout_country"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh89",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh89"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh810",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh810",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh810"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh811",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "district"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh811",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh811"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh812",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh812",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh812"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh813",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1000
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "list_of_recipients"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh813",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh813"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh814",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1050
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "location"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh814",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh814"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh815",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_code"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh815",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh815"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh816",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh816",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh816"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh817",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "branch_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh817",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh817"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh818",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1250
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "view_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh818",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh818"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh819",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1300
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_status"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh819",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh819"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgh820",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1350
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-p4iu24c2uk8ks65hgh820",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "p4iu24c2uk8ks65hgh820"
+    },
+    {
+        "id": "4iu24c2uk8ks65hgh9",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 300
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] List of Recipient"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-4iu24c2uk8ks65hgh9",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "4iu24c2uk8ks65hgh9",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgha",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 400
+        },
+        "data": {
+            "label": "Enter Amount"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgha0",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-p4iu24c2uk8ks65hgha0",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "p4iu24c2uk8ks65hgha0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgha1",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "product"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-p4iu24c2uk8ks65hgha1",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "p4iu24c2uk8ks65hgha1"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgha2",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "amount"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-p4iu24c2uk8ks65hgha2",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "p4iu24c2uk8ks65hgha2"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgha3",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "action"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-p4iu24c2uk8ks65hgha3",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "p4iu24c2uk8ks65hgha3"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgha4",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-p4iu24c2uk8ks65hgha4",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "p4iu24c2uk8ks65hgha4"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgha5",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-p4iu24c2uk8ks65hgha5",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "p4iu24c2uk8ks65hgha5"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgha6",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-p4iu24c2uk8ks65hgha6",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "p4iu24c2uk8ks65hgha6"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgha7",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "npr"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-p4iu24c2uk8ks65hgha7",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "p4iu24c2uk8ks65hgha7"
+    },
+    {
+        "id": "4iu24c2uk8ks65hghb",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 400
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] New - send cash success by prabhu money for OTP request"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-4iu24c2uk8ks65hghb",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "4iu24c2uk8ks65hghb",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghc",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 500
+        },
+        "data": {
+            "label": "Send Cash"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghc0",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-p4iu24c2uk8ks65hghc0",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "p4iu24c2uk8ks65hghc0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghc1",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "product"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-p4iu24c2uk8ks65hghc1",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "p4iu24c2uk8ks65hghc1"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghc2",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "pintwin"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-p4iu24c2uk8ks65hghc2",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "p4iu24c2uk8ks65hghc2"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghc3",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "amount"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-p4iu24c2uk8ks65hghc3",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "p4iu24c2uk8ks65hghc3"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghc4",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "action"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-p4iu24c2uk8ks65hghc4",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "p4iu24c2uk8ks65hghc4"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghc5",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-p4iu24c2uk8ks65hghc5",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "p4iu24c2uk8ks65hghc5"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghc6",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp_ref_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-p4iu24c2uk8ks65hghc6",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "p4iu24c2uk8ks65hghc6"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghc7",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-p4iu24c2uk8ks65hghc7",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "p4iu24c2uk8ks65hghc7"
+    },
+    {
+        "id": "4iu24c2uk8ks65hghd",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Transaction initiated successfully. It may take upto 15 mins for first-time customers."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-4iu24c2uk8ks65hghd",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "4iu24c2uk8ks65hghd",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghe",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 575
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Transaction declined"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghc-4iu24c2uk8ks65hghe",
+        "source": "4iu24c2uk8ks65hghc",
+        "target": "4iu24c2uk8ks65hghe",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghf",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 475
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "{state_desc}"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgha-4iu24c2uk8ks65hghf",
+        "source": "4iu24c2uk8ks65hgha",
+        "target": "4iu24c2uk8ks65hghf",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghg",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 500
+        },
+        "data": {
+            "label": "Delete Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghg0",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghg-p4iu24c2uk8ks65hghg0",
+        "source": "4iu24c2uk8ks65hghg",
+        "target": "p4iu24c2uk8ks65hghg0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghg1",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghg-p4iu24c2uk8ks65hghg1",
+        "source": "4iu24c2uk8ks65hghg",
+        "target": "p4iu24c2uk8ks65hghg1"
+    },
+    {
+        "id": "4iu24c2uk8ks65hghh",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "RBL code is either not configured or invalid for Merchant "
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghg-4iu24c2uk8ks65hghh",
+        "source": "4iu24c2uk8ks65hghg",
+        "target": "4iu24c2uk8ks65hghh",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghi",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 575
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient deleted."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghg-4iu24c2uk8ks65hghi",
+        "source": "4iu24c2uk8ks65hghg",
+        "target": "4iu24c2uk8ks65hghi",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghj",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 600
+        },
+        "data": {
+            "label": "Fetching Recipients"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghj0",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghj-p4iu24c2uk8ks65hghj0",
+        "source": "4iu24c2uk8ks65hghj",
+        "target": "p4iu24c2uk8ks65hghj0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghj1",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "credit_card_info"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghj-p4iu24c2uk8ks65hghj1",
+        "source": "4iu24c2uk8ks65hghj",
+        "target": "p4iu24c2uk8ks65hghj1"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghj2",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "kyc_state"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghj-p4iu24c2uk8ks65hghj2",
+        "source": "4iu24c2uk8ks65hghj",
+        "target": "p4iu24c2uk8ks65hghj2"
+    },
+    {
+        "id": "4iu24c2uk8ks65hghk",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Select a recipient to send money"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghj-4iu24c2uk8ks65hghk",
+        "source": "4iu24c2uk8ks65hghj",
+        "target": "4iu24c2uk8ks65hghk",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghl",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 700
+        },
+        "data": {
+            "label": "Delete Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hghm",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 800
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm0",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_name"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm0",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm1",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_mobile"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm1",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm1"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm2",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_code"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm2",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm2"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm3",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1000
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "ifsc"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm3",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm3"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm4",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1050
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm4",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm4"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm5",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm5",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm5"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm6",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm6",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm6"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm7",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm7",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm7"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm8",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1250
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "ifsc_required"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm8",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm8"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm9",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1300
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "varifiable"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm9",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm9"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghm10",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1350
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-p4iu24c2uk8ks65hghm10",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "p4iu24c2uk8ks65hghm10"
+    },
+    {
+        "id": "4iu24c2uk8ks65hghn",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "PPI Add Recipient: Recipient is already added."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-4iu24c2uk8ks65hghn",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "4iu24c2uk8ks65hghn",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgho",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Get All Recipients"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hghp",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 875
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient registered."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-4iu24c2uk8ks65hghp",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "4iu24c2uk8ks65hghp",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghq",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Recipient Added. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hghr",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Verify recipient:"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-4iu24c2uk8ks65hghr",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "4iu24c2uk8ks65hghr",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghs",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Add Recipient Details"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghs0",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_name"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-p4iu24c2uk8ks65hghs0",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "p4iu24c2uk8ks65hghs0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghs1",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1000
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_mobile"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-p4iu24c2uk8ks65hghs1",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "p4iu24c2uk8ks65hghs1"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghs2",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1050
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_code"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-p4iu24c2uk8ks65hghs2",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "p4iu24c2uk8ks65hghs2"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghs3",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-p4iu24c2uk8ks65hghs3",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "p4iu24c2uk8ks65hghs3"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghs4",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-p4iu24c2uk8ks65hghs4",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "p4iu24c2uk8ks65hghs4"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghs5",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-p4iu24c2uk8ks65hghs5",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "p4iu24c2uk8ks65hghs5"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghs6",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1250
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "ifsc"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-p4iu24c2uk8ks65hghs6",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "p4iu24c2uk8ks65hghs6"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hghs7",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1300
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-p4iu24c2uk8ks65hghs7",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "p4iu24c2uk8ks65hghs7"
+    },
+    {
+        "id": "4iu24c2uk8ks65hght",
+        "type": "default",
+        "position": {
+            "x": 3400,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient registered."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghs-4iu24c2uk8ks65hght",
+        "source": "4iu24c2uk8ks65hghs",
+        "target": "4iu24c2uk8ks65hght",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghu",
+        "type": "default",
+        "position": {
+            "x": 3600,
+            "y": 1000
+        },
+        "data": {
+            "label": "Recipient Added. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hghv",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 1025
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Verification not currently available for this bank."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-4iu24c2uk8ks65hghv",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "4iu24c2uk8ks65hghv",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghw",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Add Recipient Details"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hghx",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient verification not available"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghm-4iu24c2uk8ks65hghx",
+        "source": "4iu24c2uk8ks65hghm",
+        "target": "4iu24c2uk8ks65hghx",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hghy",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hghz",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 675
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "No recipient added."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghj-4iu24c2uk8ks65hghz",
+        "source": "4iu24c2uk8ks65hghj",
+        "target": "4iu24c2uk8ks65hghz",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi0",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 700
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi1",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "RBL: Delete Recipient"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hghg-4iu24c2uk8ks65hgi1",
+        "source": "4iu24c2uk8ks65hghg",
+        "target": "4iu24c2uk8ks65hgi1",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi2",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 600
+        },
+        "data": {
+            "label": "Delete Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgi20",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgi2-p4iu24c2uk8ks65hgi20",
+        "source": "4iu24c2uk8ks65hgi2",
+        "target": "p4iu24c2uk8ks65hgi20"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgi21",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgi2-p4iu24c2uk8ks65hgi21",
+        "source": "4iu24c2uk8ks65hgi2",
+        "target": "p4iu24c2uk8ks65hgi21"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgi22",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgi2-p4iu24c2uk8ks65hgi22",
+        "source": "4iu24c2uk8ks65hgi2",
+        "target": "p4iu24c2uk8ks65hgi22"
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi3",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "RBL: Delete Recipient after OTP verification"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgi2-4iu24c2uk8ks65hgi3",
+        "source": "4iu24c2uk8ks65hgi2",
+        "target": "4iu24c2uk8ks65hgi3",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi4",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 700
+        },
+        "data": {
+            "label": "Recipient Deleted. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi5",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 675
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "RBL Delete Recipient: Wrong OTP"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgi2-4iu24c2uk8ks65hgi5",
+        "source": "4iu24c2uk8ks65hgi2",
+        "target": "4iu24c2uk8ks65hgi5",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi6",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 700
+        },
+        "data": {
+            "label": ""
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi7",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 600
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi8",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 375
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient added successfully."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-4iu24c2uk8ks65hgi8",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "4iu24c2uk8ks65hgi8",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgi9",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 400
+        },
+        "data": {
+            "label": "Recipient Added. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgia",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] New - send cash success by prabhu money for OTP request"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh8-4iu24c2uk8ks65hgia",
+        "source": "4iu24c2uk8ks65hgh8",
+        "target": "4iu24c2uk8ks65hgia",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgib",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 400
+        },
+        "data": {
+            "label": "Verify Customer"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib0",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib0",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib1",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "action"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib1",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib1"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib2",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib2",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib2"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib3",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "verification_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib3",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib3"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib4",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib4",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib4"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib5",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib5",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib5"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib6",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp_ref_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib6",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib6"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib7",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib7",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib7"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib8",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "branch_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib8",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib8"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib9",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "gender"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib9",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib9"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib10",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_name"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib10",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib10"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib11",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1000
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "address_line1"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib11",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib11"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib12",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1050
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_mobile"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib12",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib12"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib13",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "relationship_with_sender"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib13",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib13"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib14",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_status"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib14",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib14"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgib15",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "district"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-p4iu24c2uk8ks65hgib15",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "p4iu24c2uk8ks65hgib15"
+    },
+    {
+        "id": "4iu24c2uk8ks65hgic",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 400
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] Success"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-4iu24c2uk8ks65hgic",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "4iu24c2uk8ks65hgic",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgid",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 500
+        },
+        "data": {
+            "label": "Send Cash"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgie",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 475
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] New - OTP verification success by prabhu money for add recipient"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-4iu24c2uk8ks65hgie",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "4iu24c2uk8ks65hgie",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgif",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 500
+        },
+        "data": {
+            "label": "Send Cash"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgig",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Verification fail, please try again"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgib-4iu24c2uk8ks65hgig",
+        "source": "4iu24c2uk8ks65hgib",
+        "target": "4iu24c2uk8ks65hgig",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgih",
+        "type": "default",
+        "position": {
+            "x": 900,
+            "y": 275
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] List of Recipient"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgh6-4iu24c2uk8ks65hgih",
+        "source": "4iu24c2uk8ks65hgh6",
+        "target": "4iu24c2uk8ks65hgih",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgii",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 300
+        },
+        "data": {
+            "label": "Send Cash"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgij",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 400
+        },
+        "data": {
+            "label": "Add/Modify Payment Mode"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij0",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij0",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij1",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij1",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij1"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij2",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij2",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij2"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij3",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij3",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij3"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij4",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "location"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij4",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij4"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij5",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_code"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij5",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij5"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij6",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij6",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij6"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij7",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij7",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij7"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij8",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "branch_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij8",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij8"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij9",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "view_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij9",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij9"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgij10",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_status"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-p4iu24c2uk8ks65hgij10",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "p4iu24c2uk8ks65hgij10"
+    },
+    {
+        "id": "4iu24c2uk8ks65hgik",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 400
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] Cash Payout Location Updated Succesfully"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-4iu24c2uk8ks65hgik",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "4iu24c2uk8ks65hgik",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgil",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 500
+        },
+        "data": {
+            "label": "CashPayout Location Updated. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgim",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 475
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient added successfully."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgij-4iu24c2uk8ks65hgim",
+        "source": "4iu24c2uk8ks65hgij",
+        "target": "4iu24c2uk8ks65hgim",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgin",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 500
+        },
+        "data": {
+            "label": "Recipient Added. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgio",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 500
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks65hgip",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 600
+        },
+        "data": {
+            "label": "Delete Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgip0",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgip-p4iu24c2uk8ks65hgip0",
+        "source": "4iu24c2uk8ks65hgip",
+        "target": "p4iu24c2uk8ks65hgip0"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgip1",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgip-p4iu24c2uk8ks65hgip1",
+        "source": "4iu24c2uk8ks65hgip",
+        "target": "p4iu24c2uk8ks65hgip1"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgip2",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgip-p4iu24c2uk8ks65hgip2",
+        "source": "4iu24c2uk8ks65hgip",
+        "target": "p4iu24c2uk8ks65hgip2"
+    },
+    {
+        "id": "p4iu24c2uk8ks65hgip3",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgip-p4iu24c2uk8ks65hgip3",
+        "source": "4iu24c2uk8ks65hgip",
+        "target": "p4iu24c2uk8ks65hgip3"
+    },
+    {
+        "id": "4iu24c2uk8ks65hgiq",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient deleted succesfully."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks65hgip-4iu24c2uk8ks65hgiq",
+        "source": "4iu24c2uk8ks65hgip",
+        "target": "4iu24c2uk8ks65hgiq",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks65hgir",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 700
+        },
+        "data": {
+            "label": "Recipient Deleted. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66hilp",
+        "type": "default",
+        "position": {
+            "x": 100,
+            "y": 100
+        },
+        "data": {
+            "label": "Search Customer"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilp0",
+        "type": "default",
+        "position": {
+            "x": 200,
+            "y": 150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilp-p4iu24c2uk8ks66hilp0",
+        "source": "4iu24c2uk8ks66hilp",
+        "target": "p4iu24c2uk8ks66hilp0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilp1",
+        "type": "default",
+        "position": {
+            "x": 200,
+            "y": 200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "msg"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilp-p4iu24c2uk8ks66hilp1",
+        "source": "4iu24c2uk8ks66hilp",
+        "target": "p4iu24c2uk8ks66hilp1"
+    },
+    {
+        "id": "4iu24c2uk8ks66hilq",
+        "type": "default",
+        "position": {
+            "x": 400,
+            "y": 100
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] Success"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilp-4iu24c2uk8ks66hilq",
+        "source": "4iu24c2uk8ks66hilp",
+        "target": "4iu24c2uk8ks66hilq",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hilr",
+        "type": "default",
+        "position": {
+            "x": 600,
+            "y": 200
+        },
+        "data": {
+            "label": "Fetching Recipients"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilr0",
+        "type": "default",
+        "position": {
+            "x": 700,
+            "y": 250
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilr-p4iu24c2uk8ks66hilr0",
+        "source": "4iu24c2uk8ks66hilr",
+        "target": "p4iu24c2uk8ks66hilr0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilr1",
+        "type": "default",
+        "position": {
+            "x": 700,
+            "y": 300
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "credit_card_info"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilr-p4iu24c2uk8ks66hilr1",
+        "source": "4iu24c2uk8ks66hilr",
+        "target": "p4iu24c2uk8ks66hilr1"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilr2",
+        "type": "default",
+        "position": {
+            "x": 700,
+            "y": 350
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "kyc_state"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilr-p4iu24c2uk8ks66hilr2",
+        "source": "4iu24c2uk8ks66hilr",
+        "target": "p4iu24c2uk8ks66hilr2"
+    },
+    {
+        "id": "4iu24c2uk8ks66hils",
+        "type": "default",
+        "position": {
+            "x": 900,
+            "y": 200
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "No recipient added."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilr-4iu24c2uk8ks66hils",
+        "source": "4iu24c2uk8ks66hilr",
+        "target": "4iu24c2uk8ks66hils",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hilt",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 300
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt0",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 350
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_name"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt0",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt1",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 400
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_mobile"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt1",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt1"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt2",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "gender"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt2",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt2"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt3",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "_indonepal_recipient_uri"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt3",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt3"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt4",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt4",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt4"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt5",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "address_line1"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt5",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt5"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt6",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "action"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt6",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt6"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt7",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "relationship_with_sender"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt7",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt7"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt8",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "send_country"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt8",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt8"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt9",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payout_country"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt9",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt9"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt10",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt10",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt10"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt11",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "district"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt11",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt11"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt12",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt12",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt12"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt13",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1000
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "list_of_recipients"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt13",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt13"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt14",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1050
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "location"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt14",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt14"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt15",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_code"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt15",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt15"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt16",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt16",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt16"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt17",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "branch_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt17",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt17"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt18",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1250
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "view_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt18",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt18"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt19",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1300
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_status"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt19",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt19"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilt20",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 1350
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-p4iu24c2uk8ks66hilt20",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "p4iu24c2uk8ks66hilt20"
+    },
+    {
+        "id": "4iu24c2uk8ks66hilu",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 300
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] List of Recipient"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-4iu24c2uk8ks66hilu",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "4iu24c2uk8ks66hilu",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hilv",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 400
+        },
+        "data": {
+            "label": "Enter Amount"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilv0",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-p4iu24c2uk8ks66hilv0",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "p4iu24c2uk8ks66hilv0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilv1",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "product"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-p4iu24c2uk8ks66hilv1",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "p4iu24c2uk8ks66hilv1"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilv2",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "amount"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-p4iu24c2uk8ks66hilv2",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "p4iu24c2uk8ks66hilv2"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilv3",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "action"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-p4iu24c2uk8ks66hilv3",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "p4iu24c2uk8ks66hilv3"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilv4",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-p4iu24c2uk8ks66hilv4",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "p4iu24c2uk8ks66hilv4"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilv5",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-p4iu24c2uk8ks66hilv5",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "p4iu24c2uk8ks66hilv5"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilv6",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-p4iu24c2uk8ks66hilv6",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "p4iu24c2uk8ks66hilv6"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilv7",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "npr"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-p4iu24c2uk8ks66hilv7",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "p4iu24c2uk8ks66hilv7"
+    },
+    {
+        "id": "4iu24c2uk8ks66hilw",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 400
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] New - send cash success by prabhu money for OTP request"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-4iu24c2uk8ks66hilw",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "4iu24c2uk8ks66hilw",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hilx",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 500
+        },
+        "data": {
+            "label": "Send Cash"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilx0",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-p4iu24c2uk8ks66hilx0",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "p4iu24c2uk8ks66hilx0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilx1",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "product"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-p4iu24c2uk8ks66hilx1",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "p4iu24c2uk8ks66hilx1"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilx2",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "pintwin"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-p4iu24c2uk8ks66hilx2",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "p4iu24c2uk8ks66hilx2"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilx3",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "amount"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-p4iu24c2uk8ks66hilx3",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "p4iu24c2uk8ks66hilx3"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilx4",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "action"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-p4iu24c2uk8ks66hilx4",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "p4iu24c2uk8ks66hilx4"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilx5",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-p4iu24c2uk8ks66hilx5",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "p4iu24c2uk8ks66hilx5"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilx6",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp_ref_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-p4iu24c2uk8ks66hilx6",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "p4iu24c2uk8ks66hilx6"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hilx7",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-p4iu24c2uk8ks66hilx7",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "p4iu24c2uk8ks66hilx7"
+    },
+    {
+        "id": "4iu24c2uk8ks66hily",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Transaction initiated successfully. It may take upto 15 mins for first-time customers."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-4iu24c2uk8ks66hily",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "4iu24c2uk8ks66hily",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hilz",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 575
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Transaction declined"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilx-4iu24c2uk8ks66hilz",
+        "source": "4iu24c2uk8ks66hilx",
+        "target": "4iu24c2uk8ks66hilz",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66him0",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 475
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "{state_desc}"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilv-4iu24c2uk8ks66him0",
+        "source": "4iu24c2uk8ks66hilv",
+        "target": "4iu24c2uk8ks66him0",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66him1",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 500
+        },
+        "data": {
+            "label": "Delete Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66him10",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him1-p4iu24c2uk8ks66him10",
+        "source": "4iu24c2uk8ks66him1",
+        "target": "p4iu24c2uk8ks66him10"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him11",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him1-p4iu24c2uk8ks66him11",
+        "source": "4iu24c2uk8ks66him1",
+        "target": "p4iu24c2uk8ks66him11"
+    },
+    {
+        "id": "4iu24c2uk8ks66him2",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "RBL code is either not configured or invalid for Merchant "
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him1-4iu24c2uk8ks66him2",
+        "source": "4iu24c2uk8ks66him1",
+        "target": "4iu24c2uk8ks66him2",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66him3",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 575
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient deleted."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him1-4iu24c2uk8ks66him3",
+        "source": "4iu24c2uk8ks66him1",
+        "target": "4iu24c2uk8ks66him3",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66him4",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 600
+        },
+        "data": {
+            "label": "Fetching Recipients"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66him40",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him4-p4iu24c2uk8ks66him40",
+        "source": "4iu24c2uk8ks66him4",
+        "target": "p4iu24c2uk8ks66him40"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him41",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "credit_card_info"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him4-p4iu24c2uk8ks66him41",
+        "source": "4iu24c2uk8ks66him4",
+        "target": "p4iu24c2uk8ks66him41"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him42",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "kyc_state"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him4-p4iu24c2uk8ks66him42",
+        "source": "4iu24c2uk8ks66him4",
+        "target": "p4iu24c2uk8ks66him42"
+    },
+    {
+        "id": "4iu24c2uk8ks66him5",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Select a recipient to send money"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him4-4iu24c2uk8ks66him5",
+        "source": "4iu24c2uk8ks66him4",
+        "target": "4iu24c2uk8ks66him5",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66him6",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 700
+        },
+        "data": {
+            "label": "Delete Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66him7",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 800
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66him70",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_name"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him70",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him70"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him71",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_mobile"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him71",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him71"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him72",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_code"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him72",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him72"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him73",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1000
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "ifsc"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him73",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him73"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him74",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1050
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him74",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him74"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him75",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him75",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him75"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him76",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him76",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him76"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him77",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him77",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him77"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him78",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1250
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "ifsc_required"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him78",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him78"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him79",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1300
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "varifiable"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him79",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him79"
+    },
+    {
+        "id": "p4iu24c2uk8ks66him710",
+        "type": "default",
+        "position": {
+            "x": 2700,
+            "y": 1350
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-p4iu24c2uk8ks66him710",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "p4iu24c2uk8ks66him710"
+    },
+    {
+        "id": "4iu24c2uk8ks66him8",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "PPI Add Recipient: Recipient is already added."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-4iu24c2uk8ks66him8",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "4iu24c2uk8ks66him8",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66him9",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Get All Recipients"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66hima",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 875
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient registered."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-4iu24c2uk8ks66hima",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "4iu24c2uk8ks66hima",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himb",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Recipient Added. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himc",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Verify recipient:"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-4iu24c2uk8ks66himc",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "4iu24c2uk8ks66himc",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himd",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Add Recipient Details"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66himd0",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_name"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-p4iu24c2uk8ks66himd0",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "p4iu24c2uk8ks66himd0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himd1",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1000
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_mobile"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-p4iu24c2uk8ks66himd1",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "p4iu24c2uk8ks66himd1"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himd2",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1050
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_code"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-p4iu24c2uk8ks66himd2",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "p4iu24c2uk8ks66himd2"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himd3",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-p4iu24c2uk8ks66himd3",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "p4iu24c2uk8ks66himd3"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himd4",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-p4iu24c2uk8ks66himd4",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "p4iu24c2uk8ks66himd4"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himd5",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-p4iu24c2uk8ks66himd5",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "p4iu24c2uk8ks66himd5"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himd6",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1250
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "ifsc"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-p4iu24c2uk8ks66himd6",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "p4iu24c2uk8ks66himd6"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himd7",
+        "type": "default",
+        "position": {
+            "x": 3200,
+            "y": 1300
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-p4iu24c2uk8ks66himd7",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "p4iu24c2uk8ks66himd7"
+    },
+    {
+        "id": "4iu24c2uk8ks66hime",
+        "type": "default",
+        "position": {
+            "x": 3400,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient registered."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himd-4iu24c2uk8ks66hime",
+        "source": "4iu24c2uk8ks66himd",
+        "target": "4iu24c2uk8ks66hime",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himf",
+        "type": "default",
+        "position": {
+            "x": 3600,
+            "y": 1000
+        },
+        "data": {
+            "label": "Recipient Added. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himg",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 1025
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Verification not currently available for this bank."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-4iu24c2uk8ks66himg",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "4iu24c2uk8ks66himg",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himh",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Add Recipient Details"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himi",
+        "type": "default",
+        "position": {
+            "x": 2900,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient verification not available"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him7-4iu24c2uk8ks66himi",
+        "source": "4iu24c2uk8ks66him7",
+        "target": "4iu24c2uk8ks66himi",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himj",
+        "type": "default",
+        "position": {
+            "x": 3100,
+            "y": 900
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himk",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 675
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "No recipient added."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him4-4iu24c2uk8ks66himk",
+        "source": "4iu24c2uk8ks66him4",
+        "target": "4iu24c2uk8ks66himk",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himl",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 700
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himm",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "RBL: Delete Recipient"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66him1-4iu24c2uk8ks66himm",
+        "source": "4iu24c2uk8ks66him1",
+        "target": "4iu24c2uk8ks66himm",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himn",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 600
+        },
+        "data": {
+            "label": "Delete Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66himn0",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himn-p4iu24c2uk8ks66himn0",
+        "source": "4iu24c2uk8ks66himn",
+        "target": "p4iu24c2uk8ks66himn0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himn1",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himn-p4iu24c2uk8ks66himn1",
+        "source": "4iu24c2uk8ks66himn",
+        "target": "p4iu24c2uk8ks66himn1"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himn2",
+        "type": "default",
+        "position": {
+            "x": 2200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himn-p4iu24c2uk8ks66himn2",
+        "source": "4iu24c2uk8ks66himn",
+        "target": "p4iu24c2uk8ks66himn2"
+    },
+    {
+        "id": "4iu24c2uk8ks66himo",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "RBL: Delete Recipient after OTP verification"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himn-4iu24c2uk8ks66himo",
+        "source": "4iu24c2uk8ks66himn",
+        "target": "4iu24c2uk8ks66himo",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himp",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 700
+        },
+        "data": {
+            "label": "Recipient Deleted. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himq",
+        "type": "default",
+        "position": {
+            "x": 2400,
+            "y": 675
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "RBL Delete Recipient: Wrong OTP"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himn-4iu24c2uk8ks66himq",
+        "source": "4iu24c2uk8ks66himn",
+        "target": "4iu24c2uk8ks66himq",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himr",
+        "type": "default",
+        "position": {
+            "x": 2600,
+            "y": 700
+        },
+        "data": {
+            "label": ""
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66hims",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 600
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himt",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 375
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient added successfully."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-4iu24c2uk8ks66himt",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "4iu24c2uk8ks66himt",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himu",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 400
+        },
+        "data": {
+            "label": "Recipient Added. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himv",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] New - send cash success by prabhu money for OTP request"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilt-4iu24c2uk8ks66himv",
+        "source": "4iu24c2uk8ks66hilt",
+        "target": "4iu24c2uk8ks66himv",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himw",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 400
+        },
+        "data": {
+            "label": "Verify Customer"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw0",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw0",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw1",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "action"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw1",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw1"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw2",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw2",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw2"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw3",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "verification_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw3",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw3"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw4",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw4",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw4"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw5",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw5",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw5"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw6",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp_ref_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw6",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw6"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw7",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "otp"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw7",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw7"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw8",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "branch_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw8",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw8"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw9",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "gender"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw9",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw9"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw10",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_name"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw10",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw10"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw11",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1000
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "address_line1"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw11",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw11"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw12",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1050
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_mobile"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw12",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw12"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw13",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1100
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "relationship_with_sender"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw13",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw13"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw14",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1150
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_status"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw14",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw14"
+    },
+    {
+        "id": "p4iu24c2uk8ks66himw15",
+        "type": "default",
+        "position": {
+            "x": 1700,
+            "y": 1200
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "district"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-p4iu24c2uk8ks66himw15",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "p4iu24c2uk8ks66himw15"
+    },
+    {
+        "id": "4iu24c2uk8ks66himx",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 400
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] Success"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-4iu24c2uk8ks66himx",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "4iu24c2uk8ks66himx",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66himy",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 500
+        },
+        "data": {
+            "label": "Send Cash"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66himz",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 475
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] New - OTP verification success by prabhu money for add recipient"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-4iu24c2uk8ks66himz",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "4iu24c2uk8ks66himz",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hin0",
+        "type": "default",
+        "position": {
+            "x": 2100,
+            "y": 500
+        },
+        "data": {
+            "label": "Send Cash"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66hin1",
+        "type": "default",
+        "position": {
+            "x": 1900,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Verification fail, please try again"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66himw-4iu24c2uk8ks66hin1",
+        "source": "4iu24c2uk8ks66himw",
+        "target": "4iu24c2uk8ks66hin1",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hin2",
+        "type": "default",
+        "position": {
+            "x": 900,
+            "y": 275
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] List of Recipient"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hilr-4iu24c2uk8ks66hin2",
+        "source": "4iu24c2uk8ks66hilr",
+        "target": "4iu24c2uk8ks66hin2",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hin3",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 300
+        },
+        "data": {
+            "label": "Send Cash"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66hin4",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 400
+        },
+        "data": {
+            "label": "Add/Modify Payment Mode"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin40",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 450
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin40",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin40"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin41",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 500
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin41",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin41"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin42",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 550
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin42",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin42"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin43",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin43",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin43"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin44",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "location"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin44",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin44"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin45",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "bank_code"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin45",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin45"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin46",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin46",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin46"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin47",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin47",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin47"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin48",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 850
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "branch_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin48",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin48"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin49",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 900
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "view_type"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin49",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin49"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hin410",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 950
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_status"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-p4iu24c2uk8ks66hin410",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "p4iu24c2uk8ks66hin410"
+    },
+    {
+        "id": "4iu24c2uk8ks66hin5",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 400
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "[Indo Nepal Transactions] Cash Payout Location Updated Succesfully"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-4iu24c2uk8ks66hin5",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "4iu24c2uk8ks66hin5",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hin6",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 500
+        },
+        "data": {
+            "label": "CashPayout Location Updated. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66hin7",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 475
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient added successfully."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hin4-4iu24c2uk8ks66hin7",
+        "source": "4iu24c2uk8ks66hin4",
+        "target": "4iu24c2uk8ks66hin7",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hin8",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 500
+        },
+        "data": {
+            "label": "Recipient Added. Refresh Recipient List"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66hin9",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 500
+        },
+        "data": {
+            "label": "Add Recipient"
+        }
+    },
+    {
+        "id": "4iu24c2uk8ks66hina",
+        "type": "default",
+        "position": {
+            "x": 1100,
+            "y": 600
+        },
+        "data": {
+            "label": "Delete Recipient"
+        }
+    },
+    {
+        "id": "p4iu24c2uk8ks66hina0",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 650
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "customer_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hina-p4iu24c2uk8ks66hina0",
+        "source": "4iu24c2uk8ks66hina",
+        "target": "p4iu24c2uk8ks66hina0"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hina1",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 700
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "recipient_id"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hina-p4iu24c2uk8ks66hina1",
+        "source": "4iu24c2uk8ks66hina",
+        "target": "p4iu24c2uk8ks66hina1"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hina2",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 750
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "payment_mode"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hina-p4iu24c2uk8ks66hina2",
+        "source": "4iu24c2uk8ks66hina",
+        "target": "p4iu24c2uk8ks66hina2"
+    },
+    {
+        "id": "p4iu24c2uk8ks66hina3",
+        "type": "default",
+        "position": {
+            "x": 1200,
+            "y": 800
+        },
+        "targetPosition": "left",
+        "data": {
+            "label": "account"
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hina-p4iu24c2uk8ks66hina3",
+        "source": "4iu24c2uk8ks66hina",
+        "target": "p4iu24c2uk8ks66hina3"
+    },
+    {
+        "id": "4iu24c2uk8ks66hinb",
+        "type": "default",
+        "position": {
+            "x": 1400,
+            "y": 600
+        },
+        "targetPosition": "left",
+        "sourcePosition": "right",
+        "data": {
+            "label": "Recipient deleted succesfully."
+        }
+    },
+    {
+        "id": "e4iu24c2uk8ks66hina-4iu24c2uk8ks66hinb",
+        "source": "4iu24c2uk8ks66hina",
+        "target": "4iu24c2uk8ks66hinb",
+        "animated": true
+    },
+    {
+        "id": "4iu24c2uk8ks66hinc",
+        "type": "default",
+        "position": {
+            "x": 1600,
+            "y": 700
+        },
+        "data": {
+            "label": "Recipient Deleted. Refresh Recipient List"
+        }
+    }
+]
