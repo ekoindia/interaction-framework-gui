@@ -21,7 +21,8 @@
 
 ## Data flow diagram components
 ![Data flow image](https://i.imgur.com/6FCu4mR.gif)
-#####In the above Image we can see the following components:
+<br/>
+##### In the above Image we can see the following components:
 1.  ![Master Node](https://imgur.com/fmqgd7t.png) Voilet  Node represents a single master interaction node . 
 <br/>
 2. ![Green Node](https://imgur.com/1UufvTv.png) Green  Nodes represents interaction in data flow
