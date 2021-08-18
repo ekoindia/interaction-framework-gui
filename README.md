@@ -37,6 +37,12 @@
 <br/>
 ![Yellow animated edge](https://imgur.com/RsoyeDc.gif) Yellow Animated Paths/Edge represents relationship and flow of data between interaction and it's responses and vice-versa
 
-
-
+## Screen-Shots
+![Home screen](https://imgur.com/E9h91Ow.png)
+<br/>
+![search results](https://imgur.com/nObvNzG.png)
+<br/>
+![data flow diagram screen](https://imgur.com/xstUFag.png)
+<br/>
+![data flow diagram screen](https://imgur.com/hYCZ8iS.png)
 
