@@ -31,7 +31,7 @@
 <br/>
 4.  ![Blue Node](https://imgur.com/7a2pJ4A.png) Blue Node  represents response of an interaction
 <br/>
-5.  ![Grey Edge](https://imgur.com/eP3c5e4.png)Grey Paths/Edge represents relation between interaction and it's parameter
+5.  ![Grey Edge](https://imgur.com/eP3c5e4.png) Grey Paths/Edge represents relation between interaction and it's parameter
 <br/>
 6.  ![Green animated edge](https://imgur.com/9dDEB6r.gif) Green Animated Paths/Edge represents relationship and flow of data between interaction and it's responses and vice-versa
 <br/>
