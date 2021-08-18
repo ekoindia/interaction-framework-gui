@@ -35,7 +35,7 @@
 <br/>
 6.  ![Green animated edge](https://imgur.com/9dDEB6r.gif) Green Animated Paths/Edge represents relationship and flow of data between interaction and it's responses and vice-versa
 <br/>
-7. ![Yellow animated edge](https://imgur.com/RsoyeDc.gif)Yellow Animated Paths/Edge represents relationship and flow of data between interaction and it's responses and vice-versa
+7. ![Yellow animated edge](https://imgur.com/RsoyeDc.gif) Yellow Animated Paths/Edge represents relationship and flow of data between interaction and it's responses and vice-versa
 
 
 
