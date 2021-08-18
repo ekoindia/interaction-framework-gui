@@ -1,13 +1,12 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import MenuItem from '../MenuItem/MenuItem';
 import './Menu.css';
 import MenuHeader from '../MenuHeader';
 import SearchBar from '../SearchBar/SearchBar';
 import ErrorBox from '../ErrorBox/ErrorBox';
-import sadEmoji from '../assets/frowning_face.gif'
-import loadingEmoji from '../assets/loadingface.gif'
+import sadEmoji from '../assets/frowning_face.gif';
+import loadingEmoji from '../assets/loadingface.gif';
 class Menu extends React.Component {
     constructor(props) {
         super(props);

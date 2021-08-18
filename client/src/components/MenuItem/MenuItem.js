@@ -1,6 +1,5 @@
 
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import InvisibleIcon from '../assets/icons8-invisible-48.png'
 import BulbIcon  from '../assets/bulb.png';
 import './MenuItem.css';
