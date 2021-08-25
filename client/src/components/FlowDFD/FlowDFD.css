@@ -1,0 +1,11 @@
+.react-flow {
+    border-radius: 24px;
+  }
+  .react-flow__controls,.react-flow__minimap{
+    margin: 24px;
+  }
+  .dfd-flow-box{
+    margin-right: auto;
+    margin-left: auto;
+    margin: 24px;
+  }

@@ -1,0 +1,10 @@
+.dfd-view-btn{
+    border-radius: 30px;
+    background-color: rgba(107, 226, 190, 0.04);
+    color:#6BE2BE;
+    padding: 6px 18px;
+    text-decoration: none;
+}
+.dfd-view-btn:hover {
+    color:#6BE2BE70;
+}

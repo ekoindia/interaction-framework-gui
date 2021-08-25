@@ -1,0 +1,69 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb-base",
+        "airbnb",
+        "prettier",
+        "plugin:jest/recommended"
+    ],
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": ["react", "prettier","jest"],
+    "rules": {
+        "prettier/prettier": ["error"],
+        "react/jsx-indent": "off",
+        "react/jsx-indent-props": "off",
+        "react/prop-types": 0,
+        "react/no-did-update-set-state": "warn",
+        "react/no-unescaped-entities": "warn",
+        "react/destructuring-assignment": [1, "always"],
+        "react/jsx-props-no-spreading": [
+            2,
+            {
+                "custom": "ignore"
+            }
+        ],
+        "no-unused-vars": [
+            "error",
+            {
+                "argsIgnorePattern": "^_"
+            }
+        ],
+        "no-unused-expressions": [
+            2,
+            {
+                "allowShortCircuit": true
+            }
+        ],
+        "prefer-destructuring": [1],
+        "jsx-a11y/no-static-element-interactions": "warn",
+        "jsx-a11y/click-events-have-key-events": "warn",
+        "jsx-a11y/label-has-associated-control": "warn",
+        "no-nested-ternary": "warn",
+        "no-underscore-dangle": [
+            "error",
+            {
+                "allow": ["__REDUX_DEVTOOLS_EXTENSION__"]
+            }
+        ],
+        "import/prefer-default-export": "warn",
+        "no-console": ["error"],
+        "no-var": ["error"]
+    }
+}

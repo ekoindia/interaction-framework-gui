@@ -1,0 +1,7 @@
+.no-result-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FFF;
+    font-size: 24px;
+}
